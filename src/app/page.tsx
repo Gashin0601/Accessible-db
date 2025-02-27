@@ -18,17 +18,6 @@ export default function Home() {
       <a
         href="#main-content"
         className="skip-link"
-        style={{
-          position: 'absolute',
-          left: '-9999px',
-          zIndex: 999,
-          padding: '1rem',
-          backgroundColor: '#fff',
-          ':focus': {
-            left: '50%',
-            transform: 'translateX(-50%)',
-          },
-        }}
       >
         メインコンテンツへスキップ
       </a>

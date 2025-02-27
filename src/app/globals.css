@@ -63,16 +63,12 @@ body {
   left: -9999px;
   z-index: 999;
   padding: 1rem;
-  background-color: var(--background-normal);
-  color: var(--text-normal);
-  text-decoration: none;
+  background-color: #fff;
 }
 
 .skip-link:focus {
   left: 50%;
   transform: translateX(-50%);
-  top: 0;
-  outline: 3px solid var(--primary-normal);
 }
 
 /* 高コントラストモード */
